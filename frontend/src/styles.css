@@ -21,9 +21,10 @@
 body{
   margin:0;
   background: var(--bg-radial), var(--bg);
-  color:#000; /* black text */
+  color:#7d5454; /* black text */
   min-height:100vh;
   -webkit-font-smoothing: antialiased;
+  background-color: #6a6565;
 }
 
 .topbar{
@@ -47,7 +48,7 @@ body{
   background:var(--accent);
   -webkit-background-clip:text;
   background-clip:text;
-  color:transparent;
+  color:rgb(30, 30, 69);
   letter-spacing:-0.5px;
   transition:.25s;
 }
@@ -63,7 +64,7 @@ body{
   border-radius:999px;
   border:1px solid rgba(0,0,0,0.15);
   background:var(--glass);
-  color:#000;
+  color:#611c7b;
   outline:none;
   transition:.25s;
 }
@@ -82,7 +83,7 @@ body{
   transition:.2s;
 }
 .navlinks a:hover{
-  background:rgba(0,0,0,0.05);
+  background:rgba(19, 137, 127, 0.05);
 }
 
 .container{
@@ -106,7 +107,7 @@ body{
 
 .card{
   background:var(--card);
-  border:1px solid rgba(0,0,0,0.08);
+  border:1px solid rgba(167, 11, 11, 0.08);
   padding:18px;
   border-radius:12px;
   margin-bottom:22px;

@@ -22,9 +22,9 @@ app.use('/api/posts', postRoutes);
 const PORT =5000;
 
 // Connect to MongoDB and start server
-mongoose.connect("mongodb+srv://sha:sha@cluster0.btz599l.mongodb.net/")
+mongoose.connect(process.env.MONGO_URI)
   .then(() => {
-    console.log('MongoDB connected');
+    console.log('MongoDB connected ✅');
     app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
   })
-  .catch((err) => console.error('MongoDB connection error:', err));
+  .catch((err) => console.error('MongoDB connection error ❌:', err));

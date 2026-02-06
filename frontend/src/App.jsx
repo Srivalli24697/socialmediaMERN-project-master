@@ -17,7 +17,7 @@ export default function App() {
   return (
     <div>
       <header className="topbar">
-        <div className="brand" onClick={() => nav('/')}>⚡️ SocialMERN</div>
+        <div className="brand" onClick={() => nav('/')}>⚡️ InstaReplica</div>
 
         {/* Search */}
         <div className="searchwrap">
